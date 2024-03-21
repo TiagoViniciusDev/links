@@ -1,0 +1,27 @@
+.Logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Logo .logoImg{
+    width: 5em;
+    height: 5em;
+    background-image: url(../../public/IdealWebSitesLogo.webp);
+    background-size: cover;
+    border-radius: 100%;
+}
+
+.Logo .text{
+    display: flex;
+    align-items: center;
+    gap: 0.2em;
+}
+
+.Logo .text h2 span{
+ color: var(--cor-2);
+}
+
+.Logo .text svg{
+    display: none;
+}

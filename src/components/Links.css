@@ -1,0 +1,76 @@
+.Links{
+    max-width: 600px !important;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    align-items: center;
+}
+
+.Links .containers:first-of-type{
+    margin-top: 1em;
+}
+
+.Links .containers{
+    width: 100%;
+    margin-bottom: -2.5em;
+}
+
+.Links .linkContainer{
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    padding: 0.7em 1em;
+    border: 1px solid black;
+    color: black;
+    font-weight: 600;
+
+    transition: 0.1s;
+    position: relative;
+    top: -0.4em;
+    left: -0.4em;
+    background-color: white;
+}
+
+.Links .linkContainer:hover{
+    top: -0.2em;
+    left: -0.2em;
+}
+
+.Links .linkContainer .img{
+    width: 2em;
+    height: 2em;
+    background-size: cover;
+    position: absolute;
+}
+
+.Links .linkContainer p{
+    width: 100%;
+    text-align: center;
+}
+
+.Links .containers .shadow{
+    width: 100%;
+    height: 3em;
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translateY(-100%);
+    background-color: rgb(50, 50, 50);
+}
+
+
+/* Imagens */
+
+.Links .linkContainer .img1{
+    background-image: url(../../public/whatsapp.webp);
+}
+
+.Links .linkContainer .img2{
+    background-image: url(../../public/site.webp);
+}
+
+.Links .linkContainer .img3{
+    background-image: url(../../public/instagram.webp);
+}
